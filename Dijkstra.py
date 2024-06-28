@@ -60,4 +60,4 @@ if shortest_distance != float('infinity'):
     print(f"最短路径从 {start} 到 {target} 距离是: {shortest_distance}")
     print(f"路径是: {' -> '.join(shortest_path)}")
 else:
-    print(f"There is no path from {start} to {target}")
+    print(f"从{start} 到 {target} 没有路径")
